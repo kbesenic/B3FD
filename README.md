@@ -21,9 +21,9 @@ md5sum: d492a8b7095cc1012b10dc978fb3c8f5
 All images in the dataset are pre-aligned, cropped with 50% of context, and resized to 256x256p. For more information about the image processing approach, refer to Section 3.1.1 - _Detection and alignment_.  
 
 ## Metadata
-Download link (100 MB): [B3FD_metadata.tar](TODO).
+Download link (9.76 MB): [B3FD_metadata.tar.gz](https://ferhr-my.sharepoint.com/:u:/g/personal/kbr122017_fer_hr/EcKiZtbTTb5Ep-fN32wCx4oBIcY64Wr8JhxlgPkV33M7cg?e=Q6NtUX).
 
-md5sum: TODO
+md5sum: ece599dde9a5df2ccf7473a31816f418
 
 The basic metadata for the B3FD dataset is available under _B3FD_metadata/B3FD_age.csv_. The csv file contains pairs of image paths and age labels.
 
@@ -32,9 +32,9 @@ The basic metadata for the B3FD-IWS ([IMDB-WIKI](https://data.vision.ee.ethz.ch/
 Since the [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) dataset provides gender lables along with age, we also provide two additional csv files that include gender labels: _B3FD_metadata/B3FD-IMDB_age_gender.csv_ and _B3FD_metadata/B3FD-WIKI_age_gender.csv_.
 
 ## Filtration lists
-Download link (100 MB): [B3FD_filtration_lists.tar](TODO).
+Download link (2.42 MB): [B3FD_filtration_lists.tar.gz](https://ferhr-my.sharepoint.com/:u:/g/personal/kbr122017_fer_hr/EZfv3QcfwlFKjaESDBsMpbUByksKjr4K39X3adcT4vugiA?e=ntsnKr).
 
-md5sum: TODO
+md5sum: 0e27332f23babc23a15f4ee3bc9cb790
 
 If you wish to apply a different image processing method, you can apply the provided filtration lists to the original [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) and [CACD](https://bcsiriuschen.github.io/CARC/) datasets and still benefit from our filtering method. 
 
