@@ -6,7 +6,7 @@ B3FD stands for **B**iometrically **F**iltered **F**amous **F**igure **D**ataset
 
 The B3FD datasets is composed of two main subsets; the [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) subset (i.e., B3FD-IWS) and the [CACD](https://bcsiriuschen.github.io/CARC/) subset (i.e., B3FD-CS). These subsets can be useful in case of data-origin based constraints (e.g. only IMDB-WIKI data can be used). B3FD-IWS consists of 245,204 processed samples from the [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) dataset with 53,568 unique subjects, which amounts to 4.58 samples per subject on average. B3FD-CS consists of 130,388 processed samples from the [CACD](https://bcsiriuschen.github.io/CARC/) dataset with 1,831 unique subjects, which amounts to 71.21 samples per subject. 
 
-As is demonstrated in the paper, the B3FD data **outperforms all the other evaluated publicly available datasets for age estimation**. 
+As is demonstrated in the paper and presented in the following table, the B3FD data **outperforms all the other evaluated publicly available datasets for age estimation**. 
 
 ![plot](./images/table.png)
 
@@ -39,7 +39,7 @@ md5sum: 0e27332f23babc23a15f4ee3bc9cb790
 If you wish to apply a different image processing method, you can apply the provided filtration lists to the original [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) and [CACD](https://bcsiriuschen.github.io/CARC/) datasets and still benefit from our filtering method. 
 
 # Citation
-If you find this datast usefull and decide to use any of the provided data, please use the following citation in your work:
+If you find this dataset usefull and decide to use any of the provided data, please use the following citation in your work:
 ```
 @article{bevsenic2022picking,
   title={Picking out the bad apples: unsupervised biometric data filtering for refined age estimation},
