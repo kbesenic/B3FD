@@ -1,10 +1,10 @@
 # The B3FD Dataset
-The B3FD dataset is a publicaly available unconstrained facial image dataset for age estimation introduced in the paper [Picking out the bad apples: unsupervised biometric data filtering for
+The B3FD dataset is a publicly available unconstrained facial image dataset for age estimation introduced in the paper [Picking out the bad apples: unsupervised biometric data filtering for
 refined age estimation](https://rdcu.be/cECBE).
 
 B3FD stands for **B**iometrically **F**iltered **F**amous **F**igure **D**ataset. B3FD is a new dataset derived from [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) and [CACD](https://bcsiriuschen.github.io/CARC/) datasets, automatically cleaned of faulty web-scraped samples by the unsupervised biometric filtering methods proposed in the paper. 53% of samples were removed from the [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) data and 20% from the [CACD](https://bcsiriuschen.github.io/CARC/) data. The remaining dataset contains 375,592 facial image samples with corresponding age labels. It has 53,759 unique subjects, which amounts to 6.99 samples per subject on average. The age labels are ranging from 0 to 100. 
 
-The B3FD datasets is composed of two main subsets; the [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) subset (i.e., B3FD-IWS) and the [CACD](https://bcsiriuschen.github.io/CARC/) subset (i.e., B3FD-CS). These subsets can be useful in case of data-origin based constraints (e.g. only IMDB-WIKI data can be used). B3FD-IWS consists of 245,204 processed samples from the [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) dataset with 53,568 unique subjects, which amounts to 4.58 samples per subject on average. B3FD-CS consists of 130,388 processed samples from the [CACD](https://bcsiriuschen.github.io/CARC/) dataset with 1,831 unique subjects, which amounts to 71.21 samples per subject. 
+The B3FD datasets is composed of two main subsets; the [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) subset (i.e., B3FD-IWS) and the [CACD](https://bcsiriuschen.github.io/CARC/) subset (i.e., B3FD-CS). These subsets can be useful in case of data-origin-based constraints (e.g. only IMDB-WIKI data can be used). B3FD-IWS consists of 245,204 processed samples from the [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) dataset with 53,568 unique subjects, which amounts to 4.58 samples per subject on average. B3FD-CS consists of 130,388 processed samples from the [CACD](https://bcsiriuschen.github.io/CARC/) dataset with 1,831 unique subjects, which amounts to 71.21 samples per subject. 
 
 As is demonstrated in the paper and presented in the following table, the B3FD data **outperforms all the other evaluated publicly available datasets for age estimation**. 
 
@@ -39,7 +39,7 @@ md5sum: 0e27332f23babc23a15f4ee3bc9cb790
 If you wish to apply a different image processing method, you can apply the provided filtration lists to the original [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) and [CACD](https://bcsiriuschen.github.io/CARC/) datasets and still benefit from our filtering method. 
 
 # Citation
-If you find this dataset usefull and decide to use any of the provided data, please use the following citation in your work:
+If you find this dataset useful and decide to use any of the provided data, please use the following citation in your work:
 ```
 @article{bevsenic2022picking,
   title={Picking out the bad apples: unsupervised biometric data filtering for refined age estimation},
@@ -52,4 +52,4 @@ If you find this dataset usefull and decide to use any of the provided data, ple
 ```
 
 # License
-Please notice that this dataset is made available for academic research purpose only. All the images and labels are derived from the [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) and [CACD](https://bcsiriuschen.github.io/CARC/) datasets and the copyright belongs to the original owners.
+Please notice that this dataset is made available for academic research purposes only. All the images and labels are derived from the [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) and [CACD](https://bcsiriuschen.github.io/CARC/) datasets and the copyright belongs to the original owners.
