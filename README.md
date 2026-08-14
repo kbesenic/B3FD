@@ -32,7 +32,7 @@ The basic metadata for the B3FD-IWS ([IMDB-WIKI](https://data.vision.ee.ethz.ch/
 Since the [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) dataset provides gender lables along with age, we also provide two additional csv files that include gender labels: _B3FD_metadata/B3FD-IMDB_age_gender.csv_ and _B3FD_metadata/B3FD-WIKI_age_gender.csv_.
 
 ## Filtration lists
-Download link (2.42 MB): [B3FD_filtration_lists.tar.gz](https://ferhr-my.sharepoint.com/:u:/g/personal/kbr122017_fer_hr/EZfv3QcfwlFKjaESDBsMpbUB6uUWXS_15paxBh44nk8gmA?e=xqXy9p).
+Download link (2.42 MB): [B3FD_filtration_lists.tar.gz](https://ferhr-my.sharepoint.com/:u:/g/personal/kbr122017_fer_hr/IQCX790HH8JRSo2hEgwbDKW1AXnyaSSYUEDXctRQ5UnQziQ).
 
 md5sum: 0e27332f23babc23a15f4ee3bc9cb790
 
